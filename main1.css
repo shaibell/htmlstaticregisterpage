@@ -1,18 +1,18 @@
 body {
-    background-color: #76c8ff;
+    background-color: hsl(203, 43%, 80%);
     margin: 0;
-    font-family: sans-serif;
+    font-family: cursive;
     display: flex;
     height: 100vh;
 }
 
 header {
     background-color: white;
-    text-align: right;
+    text-align: left;
     padding: .75rem 0;
     border-bottom: solid 1px dimgrey;
     box-shadow: 
-    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 4px 8px 0 rgba(168, 130, 130, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: fixed;
     top: 0;
@@ -22,35 +22,33 @@ header {
 
 header a {
     color:white;
-    background-color: #13a0ff;
-    border: solid 1px gray;
-    border-radius: 3px;
-    padding: .25rem .5rem;
+    background-color: moccasin;
+    border: solid 1px teal;
+    border-radius: 30px;
+    padding: .125rem .125rem;
     margin-right: .5rem;
-    /* line-height adjusts the amount of space taken up for the font */
-    line-height: 1.5rem;
-    /* this removes the underline from the a tag  */
+    line-height: 3.5rem;
     text-decoration: none;
 }
 
 header a:hover, form button:hover {
     background-color: #1084d1;
-    cursor: pointer;
+    cursor: grab;
 }
 
 .container {
     margin: auto;
     padding: 1.5rem;
     background-color: white;
-    border: sold 1px gray;
-    border-radius: 5px;
+    border: sold 10px gray;
+    border-radius: 10px;
     box-shadow:
     0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .container > h1 {
-    margin: 0 0 .5rem;
+    margin: 0 0 .15rem;
 }
 
 form input, form button {
@@ -58,25 +56,25 @@ form input, form button {
     min-width: 300px;
 
 
-    box-sizing: border-box;
+    box-sizing: content-box;
     margin: .75rem 0;
     padding: .25rem;
     line-height: 1.5rem;
     line-height: 1.5rem;
     font-size: 1em;
-    border: solid 1px gray;
+    border: solid 1px rgb(228, 116, 41);
     border-radius: 3px;
 }
 
 
 form button {
     color:white;
-    background-color: #13a0ff;
+    background-color: moccasin;
 }
 
 footer {
     margin-top: .75rem;
-    border-top: solid 1px lightgray;
+    border-top: solid 1px rgb(167, 204, 65);
     padding-top: 1rem;
     text-align: center;
 }
@@ -86,5 +84,12 @@ footer img {
 }
 
 footer img:hover {
-    cursor: pointer;
+    cursor:grab;
+}
+
+.pizza {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
